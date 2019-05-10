@@ -1,6 +1,6 @@
 # MiniJava semantic checker
 
-A semantic checker for MiniJava programs, using the visitor pattern. If a
+A semantic checker for MiniJava programs, using the visitor design pattern. If a
 program is semantically correct, it prints in the standard output, the offsets
 of the fields and the methods of the classes. These offsets are defined as:
 
