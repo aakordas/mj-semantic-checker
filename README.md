@@ -2,7 +2,11 @@
 
 A semantic checker for MiniJava programs, using the visitor pattern. If a
 program is semantically correct, it prints in the standard output, the offsets
-of the fields and the methods of the classes.
+of the fields and the methods of the classes. These offsets are defined as:
+
+  - 1 byte for `boolean` types
+  - 4 bytes for `integer` types
+  - 8 bytes for `int[]`,  classes and functions
 
 MiniJava is a subset of Java, it has many familiar features and it can be fully
 compiled with `javac`. The BNF version of MiniJava can be found
