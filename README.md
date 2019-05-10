@@ -5,7 +5,7 @@ program is semantically correct, it prints in the standard output, the offsets
 of the fields and the methods of the classes.
 
 MiniJava is a subset of Java, it has many familiar features and it can be fully
-compiled with ‘javac’. The BNF version of MiniJava can be found
+compiled with `javac`. The BNF version of MiniJava can be found
 [here](http://cgi.di.uoa.gr/~thp06/project_files/minijava-new/minijava.html).
 
 ## Getting Started
@@ -13,13 +13,13 @@ compiled with ‘javac’. The BNF version of MiniJava can be found
 ### Prerequisites
 
   - A modern Java version.
-  - ‘JTB’ ([Java Tree Builder](http://compilers.cs.ucla.edu/jtb/)) is required
+  - `JTB` ([Java Tree Builder](http://compilers.cs.ucla.edu/jtb/)) is required
 to build the visitors.
-  - ‘[JavaCC](https://javacc.org/download)’, to create the parser off the
+  - [JavaCC](https://javacc.org/download), to create the parser off the
 provided grammar file.
 
 The above tools may be provided by your distribution’s package manager (on Linux
-systems). In this case, the ‘makefile’ will need to be changed accordingly, to
+systems). In this case, the `makefile` will need to be changed accordingly, to
 point to the location of the JTB and JavaCC executables.
 
 ### Downloading
@@ -38,7 +38,7 @@ To build the program, just type
 
     make
 
-on the command line and the program will start compiling, provided the ‘.jar’
+on the command line and the program will start compiling, provided the `.jar`
 files for JTB and JavaCC are in the project’s directory.
 
 ### Running
@@ -47,7 +47,7 @@ To run the program, just type, after a successful compilation:
 
     java Main <file1> <file2> ...
 
-Where ‘<file1>’, ‘<file2’, etc. are the files you want to be checked. In case of
+Where `<file1>`, `<file2>`, etc. are the files you want to be checked. In case of
 an incorrect file, an error message is printed and the program continues to the
 next file, if any.
 
